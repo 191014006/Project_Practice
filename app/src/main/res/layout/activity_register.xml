@@ -15,6 +15,7 @@
         android:src="@drawable/person"/>
 
     <EditText
+        android:id="@+id/nameEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/bg"
@@ -26,28 +27,31 @@
         android:layout_marginTop="10dp"/>
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@drawable/bg"
-        android:hint="  Last Name"
-        android:inputType="text"
-        android:padding="10dp"
-        android:textColor="#000000"
-        android:textColorHint="#000000"
-        android:layout_marginTop="10dp"/>
-
-    <EditText
+        android:id="@+id/emailEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/bg"
         android:hint="  Email"
         android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/numberEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg"
+        android:hint="  Contact Number"
+        android:inputType="phone"
         android:textColor="#000000"
         android:textColorHint="#000000"
         android:padding="10dp"
         android:layout_marginTop="10dp"/>
 
     <EditText
+        android:id="@+id/passwordEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/bg"
@@ -59,6 +63,7 @@
         android:layout_marginTop="10dp"/>
 
     <EditText
+        android:id="@+id/ConfirmPasswordEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/bg"
@@ -70,6 +75,7 @@
         android:layout_marginTop="10dp"/>
 
     <Button
+        android:id="@+id/registerBtn"
         android:layout_width="250dp"
         android:layout_height="55dp"
         android:text="Register"
@@ -80,6 +86,7 @@
         android:textAllCaps="false"
         />
     <TextView
+        android:id="@+id/Signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Have an account? SignIn"

@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ULAB/ULAB 9th semester/New folder/TripPlan/app/src/main/res/drawable/bg.xml" value="0.2712962962962963" />
+        <entry key="..\:/ULAB/ULAB 9th semester/New folder/TripPlan/app/src/main/res/drawable/btnbg.xml" value="0.2657407407407407" />
         <entry key="..\:/ULAB/ULAB 9th semester/New folder/TripPlan/app/src/main/res/layout/activity_login.xml" value="0.19882246376811594" />
         <entry key="..\:/ULAB/ULAB 9th semester/New folder/TripPlan/app/src/main/res/layout/activity_main.xml" value="0.19882246376811594" />
-        <entry key="..\:/ULAB/ULAB 9th semester/New folder/TripPlan/app/src/main/res/layout/activity_register.xml" value="0.19882246376811594" />
+        <entry key="..\:/ULAB/ULAB 9th semester/New folder/TripPlan/app/src/main/res/layout/activity_register.xml" value="0.2" />
       </map>
     </option>
   </component>
