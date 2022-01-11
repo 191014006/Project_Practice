@@ -6,19 +6,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:padding="25dp"
+    android:padding="20dp"
     tools:context=".Register">
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="140dp"
-        android:src="@drawable/person"/>
+        android:src="@drawable/person"
+        android:layout_marginTop="2dp"
+        android:background="#DDDDDD"/>
 
     <EditText
         android:id="@+id/nameEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/bground"
         android:hint="  First Name"
         android:inputType="text"
         android:textColor="#000000"
@@ -30,7 +32,7 @@
         android:id="@+id/emailEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/bground"
         android:hint="  Email"
         android:inputType="textEmailAddress"
         android:padding="10dp"
@@ -42,7 +44,7 @@
         android:id="@+id/numberEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/bground"
         android:hint="  Contact Number"
         android:inputType="phone"
         android:textColor="#000000"
@@ -54,7 +56,7 @@
         android:id="@+id/passwordEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/bground"
         android:hint="  Password"
         android:inputType="textPassword"
         android:padding="10dp"
@@ -66,7 +68,7 @@
         android:id="@+id/ConfirmPasswordEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/bg"
+        android:background="@drawable/bground"
         android:hint="  Confirm Password"
         android:inputType="textPassword"
         android:padding="10dp"
@@ -85,15 +87,16 @@
         android:textStyle="bold"
         android:textAllCaps="false"
         />
+
     <TextView
         android:id="@+id/Signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="Have an account? SignIn"
         android:textColor="#30c30a"
         android:textSize="20sp"
-        android:layout_marginTop="15dp"
-        />
+        android:textStyle="bold" />
 
 
 </LinearLayout>

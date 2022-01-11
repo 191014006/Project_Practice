@@ -92,6 +92,7 @@ public class Register extends AppCompatActivity {
                             {
                                 FirebaseUser user = auth.getCurrentUser();
                                 updateUi(user,email);
+                                Toast.makeText(Register.this, "Register Successfull", Toast.LENGTH_SHORT).show();
                             } else {
                                 Toast.makeText(Register.this,"Register Failed"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             }
@@ -116,6 +117,7 @@ public class Register extends AppCompatActivity {
                             {
                                 startActivity(new Intent(Register.this,LoginActivity.class));
                                 finish();
+                                Toast.makeText(Register.this, "Register Successfull", Toast.LENGTH_SHORT).show();
                             } else
                             {
                                 Toast.makeText(Register.this,"Register Failed"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
