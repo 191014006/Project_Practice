@@ -145,9 +145,11 @@
             android:src="@drawable/home" />
 
         <ImageView
+            android:id="@+id/logout"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
+            android:padding="2dp"
             app:srcCompat="@drawable/profileicon" />
 
 
