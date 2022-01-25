@@ -1,6 +1,7 @@
 package com.example.tripplan.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,10 +11,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.tripplan.DetailsActivity;
 import com.example.tripplan.R;
 import com.example.tripplan.model.TopPlacesData;
 
 import java.util.List;
+
+
+
 
 public class TopPlacesAdapter extends RecyclerView.Adapter<TopPlacesAdapter.TopPlacesViewHolder> {
 
@@ -42,6 +47,14 @@ public class TopPlacesAdapter extends RecyclerView.Adapter<TopPlacesAdapter.TopP
         holder.placeName.setText(topPlacesDataList.get(position).getPlaceName());
         holder.price.setText(topPlacesDataList.get(position).getPrice());
         holder.placeImage.setImageResource(topPlacesDataList.get(position).getImageUrl());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(context, DetailsActivity.class);
+                context.startActivity(i);
+            }
+        });
     }
 
     @Override

@@ -47,23 +47,37 @@ public class MainActivity extends AppCompatActivity {
 
 
         List<RecentsData> recentsDataList = new ArrayList<>();
+        recentsDataList.add(new RecentsData("Sundarbans Mangrove ","Bangladesh","From $200",R.drawable.recentimage1));
+        recentsDataList.add(new RecentsData("Saint Martin’s Island","Bangladesh","From $300",R.drawable.recentimage2));
+        recentsDataList.add(new RecentsData("Cox’s Bazar","Bangladesh","From $200",R.drawable.recentimage1));
+        recentsDataList.add(new RecentsData("Jaflong","Bangladesh","From $300",R.drawable.recentimage2));
+        recentsDataList.add(new RecentsData("Bandarban","Bangladesh","From $200",R.drawable.recentimage1));
+        recentsDataList.add(new RecentsData("Srimongol","Bangladesh","From $300",R.drawable.recentimage2));
         recentsDataList.add(new RecentsData("AM Lake","India","From $200",R.drawable.recentimage1));
         recentsDataList.add(new RecentsData("Nilgiri Hills","India","From $300",R.drawable.recentimage2));
         recentsDataList.add(new RecentsData("AM Lake","India","From $200",R.drawable.recentimage1));
         recentsDataList.add(new RecentsData("Nilgiri Hills","India","From $300",R.drawable.recentimage2));
         recentsDataList.add(new RecentsData("AM Lake","India","From $200",R.drawable.recentimage1));
         recentsDataList.add(new RecentsData("Nilgiri Hills","India","From $300",R.drawable.recentimage2));
-
         setRecentRecycler(recentsDataList);
 
-        List<TopPlacesData> topPlacesDataList = new ArrayList<>();
-        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
-        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
-        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
-        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
-        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
 
+        List<TopPlacesData> topPlacesDataList = new ArrayList<>();
+        topPlacesDataList.add(new TopPlacesData("Sajek Valley","Bangladesh","$200 - $500",R.drawable.topplaces));
+        topPlacesDataList.add(new TopPlacesData("Kuakata","Bangladesh","$200 - $500",R.drawable.topplaces));
+        topPlacesDataList.add(new TopPlacesData("Sonargaon","Bangladesh","$200 - $500",R.drawable.topplaces));
+        topPlacesDataList.add(new TopPlacesData("Dhaka","Bangladesh","$200 - $500",R.drawable.topplaces));
+        topPlacesDataList.add(new TopPlacesData("Khulna","Bangladesh","$200 - $500",R.drawable.topplaces));
+        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
+        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
+        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
+        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
+        topPlacesDataList.add(new TopPlacesData("Kasimir Hill","India","$200 - $500",R.drawable.topplaces));
         setTopPlacesRecycler(topPlacesDataList);
+
+
+
+
 
     }
 
